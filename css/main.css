@@ -1,0 +1,113 @@
+
+  * {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+   background: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 25px;
+
+}
+
+.logo-container {
+  width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.logo {
+  width: 25%;
+  height: auto;
+}
+
+h1#headerNames {
+  color: #5E35B1;
+  font-family: Georgia, serif;
+  font-size: 110px;
+  text-align: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  width: 150px;
+    height: auto;
+    padding: 12px;
+    background: #299229;
+    border: 3px solid #fff;
+    border-radius: 500px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  display: block;
+  cursor: pointer;
+}
+
+#stopButton {
+  background: #ff0000;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 50%;
+    height: auto;
+  }
+  
+  h1#headerNames {
+    font-size: 40px;
+  }
+}
